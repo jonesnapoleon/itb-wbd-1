@@ -1,5 +1,5 @@
 .social-media svg {
-    font-size: 2em;
+    font-size: 3em;
 }
 .social-media {
     margin-bottom: 2em;
@@ -16,3 +16,16 @@ footer {
     font-size: 1.1em !important;
 }
 
+@media only screen and (max-width: 500px){
+    footer .flex {        
+        flex-direction: column-reverse;
+    }
+    footer {
+        padding: 2em 0;
+        text-align: center;
+    }
+    #subscribe {
+        margin-bottom: 1em;
+        text-align: left;
+    }
+}

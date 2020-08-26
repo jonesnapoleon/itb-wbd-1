@@ -41,7 +41,7 @@
                 <h2>Hey, I'm Jones!</h2>
                 <h5 style="font-family: Roboto, sans-serif; font-weight: lighter;">I
                     <span id='typewriter'
-                        data-messages='["am a Digital Technology enthusiast.", "love to develop websites and mobile apps.", "never have the chance or time to learn Data Science 😢  ", "am ready to help!"]'>
+                        data-messages='["am a Digital Technology enthusiast.", "love to develop websites and mobile apps.", "never have the chance to learn Data Science 😢  ", "am ready to help you!"]'>
                         <span class="wrap" />
                     </span>
                 </h5>
@@ -76,7 +76,7 @@
 
     <!-- Products -->
     <section class="container">
-        <h1 id='products'>My Products</h1>
+        <h1 id='products'>Products</h1>
         <hr />
         <article class="flex">
             <div class="flex-4 center">
@@ -85,13 +85,16 @@
             </div>
             <div class="flex-8">
                 <h2>NIM Finder ITB</h2>
-                <div>
-                    Garnered raw data through pre-authentication web scraping from NIC ITB, preprocessed into a single file,
+                <p>
+                    Garnered raw data through pre-authentication web scraping from NIC ITB, preprocessed into a single
+                    file,
                     and here you go, NIM Finder.
-                    <br />
-                    It supports dynamic refreshless NIM and name identification (exact and loose matching), NIM-sortable, name-sortable, and
+                </p>
+                <p>
+                    It supports dynamic refreshless NIM and name identification (exact and loose matching),
+                    NIM-sortable, name-sortable, and
                     all-out query-based filters.
-                </div>
+                </p>
                 <div class="py-4">
                     <div class='flex' style="justify-content: start;">
                         <span style="margin-bottom: 1em;">
@@ -112,11 +115,14 @@
             </div>
             <div class="flex-8">
                 <h2>SRE ITB</h2>
-                <div>
-                    Features a dynamic Google Cloud-integrated (hosting, database, storage, forms) web pages with strong SEO rank.
-                    <br/>
-                    The impact of previous SRE ITB Webinar series reaches 248K page views and 46K unique registrants in only one week - awarded with National Record (MURI).
-                </div>
+                <p>
+                    Features a dynamic Google Cloud-integrated (hosting, database, storage, forms) web pages with strong
+                    SEO rank.
+                </p>
+                <p>
+                    The impact of previous SRE ITB Webinar series reaches 248K page views and 46K unique registrants in
+                    only one week - awarded with National Record (MURI).
+                </p>
                 <div class="py-4">
                     <a href='https://sreitb.com' class="button primary large">Check it out</a>
                 </div>
@@ -130,11 +136,13 @@
             </div>
             <div class="flex-8">
                 <h2>AISC 2021</h2>
-                <div>
+                <p>
                     Web pages built with no third-party UI library, integrated with Cloud technology.
-                    <br/>                   
-                    Come up with the idea and product of client-side dual-language and dual-theme, changing language and theme takes no more refresh on browser!                    
-                </div>
+                </p>
+                <p>
+                    Come up with the idea and product of client-side dual-language and dual-theme, changing language and
+                    theme takes no more refresh on browser!
+                </p>
                 <div class="py-4">
                     <a href='https://aiscevent.com' class="button primary large">Check it out</a>
                 </div>
@@ -147,9 +155,10 @@
             </div>
             <div class="flex-8">
                 <h2>ScapeMark</h2>
-                <div>
-                    A free-to-use web application (simple Instagram-like, includes authentication) for media sharing of the beautiful wonders of the world.                    
-                </div>
+                <p>
+                    A free-to-use web application (simple Instagram-like, includes authentication) for media sharing of
+                    the beautiful wonders of the world.
+                </p>
                 <div class="py-4">
                     <a href='https://scapemark.jonesnapoleon.com' class="button primary large">Check it out</a>
                 </div>
@@ -178,9 +187,11 @@
                 </div>
             </div>
             <div class="flex-8" id='subscribe'>
-                <input type="text" name='name' id='name' class="empty" placeholder="Name">
-                <input type="email" name='email' id='email' class="empty" placeholder="Email">
-                <button class="button primary large" id='subscribe-button'>Subscribe!</button>
+                <form>
+                    <input type="text" name='name' id='name' class="empty" placeholder="Name" required>
+                    <input type="email" name='email' id='email' class="empty" placeholder="Email" required>
+                    <button type="submit" class="button primary large">Subscribe!</button>
+                </form>
             </div>
         </section>
     </footer>

@@ -85,11 +85,14 @@ themeInput.addEventListener("change", () => {
   toggleThemeLS();
 });
 
+const form = document.querySelector("form");
 const handleSubmit = (e) => {
   e.preventDefault();
-  const ans = confirm("Are you sure to subscribe?");
-  if (ans) alert("Your data is accepted.");
+  const fields = form.querySelectorAll("input[name]");
+  const name = fields[0].value;
+  const email = fields[1].value;
+  const ans = confirm(`Hi ${name}, are you sure to subscribe with ${email}?`);
+  if (ans) alert(`Thankyou, ${name}. Your email ${email} is accepted!`);
 };
 
-const subscribeButton = document.getElementById("subscribe-button");
-subscribeButton.addEventListener("click", handleSubmit);
+form.addEventListener("submit", handleSubmit);
