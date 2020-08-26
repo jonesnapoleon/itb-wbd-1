@@ -88,7 +88,7 @@ themeInput.addEventListener("change", () => {
 const handleSubmit = (e) => {
   e.preventDefault();
   const ans = confirm("Are you sure to subscribe?");
-  if (ans) alert("Your data is accepted!");
+  if (ans) alert("Your data is accepted.");
 };
 
 const subscribeButton = document.getElementById("subscribe-button");

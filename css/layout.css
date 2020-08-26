@@ -1,10 +1,4 @@
-/* layout */
-
 @media only screen and (max-width: 767px){
-    /* .flex {
-        flex-wrap: nowrap !important;
-        flex-shrink: 0 !important;
-    } */    
     .container {
         padding: 0 20px !important;
         width: 100% !important;
@@ -29,7 +23,6 @@
     max-width: 100% !important;
 }
 
-
 .flex img {
     padding-top: 2rem;
 }
@@ -37,18 +30,6 @@
 .center {
     display: grid;
     place-items: center;
-    text-align: center;
-}
-.text-center {
-    text-align: center;
-}
-.center-between {
-    display: grid;
-    align-items: space-between;
-    text-align: center;
-}
-.center-top {
-    /* align-items: flex-start; */
     text-align: center;
 }
 
@@ -62,20 +43,6 @@
     max-width: 250px;
 }
 
-.grid-1-2 {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr;
-}
-/* .grid-4 {
-    grid-column: 4 / 13;
-}
-.grid-8 {
-    grid-column: 8 / 13;
-} */
-.my-4 {
-    margin: 2rem 0;
-}
 .my-6 {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
