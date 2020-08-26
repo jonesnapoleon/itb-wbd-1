@@ -1,0 +1,18 @@
+.social-media svg {
+    font-size: 2em;
+}
+.social-media {
+    margin-bottom: 2em;
+}
+.social-media a{
+    padding: 1.5em !important;
+}
+
+footer {
+    background: var(--tertiary-color);
+    padding: 4em 0;
+}
+#subscribe, #subscribe input {
+    font-size: 1.1em !important;
+}
+
